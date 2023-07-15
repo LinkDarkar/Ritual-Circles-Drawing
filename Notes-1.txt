@@ -1,0 +1,26 @@
+Ritual Component Classes
+Anything can be a ritual component depending on how it is used. There are four classes of this:
+
+ - Quintessence: Denotes the objectives for the ritual. Usually there will be one central quintessence corresponding to the object of purpose. Examples: If enchantment ritual, it will be the object being enchanted. If modifying a spell, the spell being modified will have the quintessence Class assigned to it.
+ 
+ - Augment: A component that supports or exists to be used by another component. Examples: A torch could be assigned to the augment class to enhance the Quintessence with aspects of fire.
+ 
+ - Structure: Components which help form or organize the ritual. These are almost always ritual-spells. Example: A stonehenge-like structure is built to act as a renewable ritual circle for a tribe of druids. This monument is assigned the Structure class within the ritual and houses the rest of the components and inscriptions.
+ 
+ - Utility: Auziliary component acting as an interface, input or for a tertiary purpose. Examples: A ritual that is created to activate when it senses life nearby will probably use the Sense Life spell as a Utility component (linked to the 'trigger' ritual-spell).
+ 
+Process of Creating a Ritual
+First we need a medium to host it. The basis for the ritual. Choosing an object as the base will indicate and enchantment ritual and follow the creation of magical artifact rules more closely -- but this is not always the case. Monuments, Dances and Altars are also popular choices to host rituals. All bases are assigned the Structure Class and the rest of the components are placed in accordance with the basis. The chosen basis also decides the secondary skill that is eventually performed when activating the ritual. Usually, this is the occult skill, but if dance was chosen as a basis for instance, the check would become a dance check, and the occultist would not need to know any occult to perform the ritual as long as they do not modify the dance. (They would still use their Occult to set up the ritual or for any other related checks other than the performance). By far the most common basis for a ritual is the balance Ritual-Spell, in which components are laid out in a traditional runic diagram way, with magic chalk or some other writing medium connecting components and inscribing spells. This method yields the floating and glowing concentric circles and runes typically associated with rituals.
+
+Then usually one select the quintessence that represents the purpose of the ritual. That is the object being modified, person being teleported, spell being enhanced, etc.
+
+Then one can work backwards from the quintessence to build a ritual that will enact its purpose, introducing components and assigning them classes as they go. Most often they trace back to one or multiple zeon inputs.
+
+Then the player determines the occult difficulty resulting from the components in the ritual, and the circumstantial modifiers. They then consult the prparation time chart and decide how much time they will devote to their ritual prior to activating it.
+
+Ritual-Spells
+They belong to a class of Free Access magic created for use within rituals, and provide the tools for common ritual magic to exist. Each Ritual-Spell adds varying effects and complexity to the ritual depending on its assigned component class.
+
+These spells are automatically learned if a character is trained in the occult skill, and do not need to be purchased with magic levels. They do not have associated levels at which they are cast, or fixed zeon costs. The amount of complexity each Ritual-Spell adds to the ritual (increasing the eventual check by the given amount) is shown in the table below.
+(there are: Channel, Trigger, Balance and Alteration; and there is one of them for each component Class)
+

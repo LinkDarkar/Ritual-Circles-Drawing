@@ -1,0 +1,9 @@
+Ritual -> Class: That has the other objects saved???
+			variables?: typeOfCheck (depends on ritualObjectStructure) - timeDevoted - activatingDifficulty (depends on the components) - (circumsantial modifiers?????????????) - activatingCheck
+
+ritualObject (Parent Class) -> descriptionOfEffect - complexityModifier 
+	ritualObjectStructure (basis) -> 
+	ritualObjectQuintessence+ (purpose) -> 
+	ritualObjectAugment* -> 
+	ritualObjectUtility* -> 
+(child Classes)
