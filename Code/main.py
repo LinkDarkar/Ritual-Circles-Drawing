@@ -5,6 +5,7 @@ from ritual import Ritual
 from ritualObject import RitualObject
 
 # I still don't know what any of this does... kinda... ????????????
+# Maybe I should leave this in it's own file?
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("dark-blue")
 
@@ -26,7 +27,15 @@ window.mainloop()
 ritualTest = Ritual()
 ritualTest.printTest()
 ritualObjectTest = RitualObject()
-ritualObjectTest.printTest()
+ritualTest.addRitualObject(1)
+if ritualTest.ritualObjects:
+    # Same concept as the first if statement in Ritual.addRitualObject()
+    # but it checks if the list even has something in the first place
+    # again, wouldn't it be exhausting to have this everytime we want to do something?
+    # tho we might not even use this in the end...
+    # I think I'm getting ahead of myself here
+    print("TEST")
+    ritualTest.ritualObjects[0].printTest()
 
 # A
 if __name__ == '__main__':
