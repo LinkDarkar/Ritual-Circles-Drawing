@@ -1,5 +1,7 @@
 class RitualObject():
     def __init__(self):
+        self.name = "None"
+        self.typeOfObject = "None"          # Can be either a weapon, spell, or whatever the fuck it needs to be, wouldn't it be nice for the user to be able to add or delete the types that they wanted and then select them from a menu?
         self.descriptionOfEffect = "None"
         self.complexityModifier = 0
         print("RitualObject is created")

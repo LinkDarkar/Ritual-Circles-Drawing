@@ -14,7 +14,7 @@ class Ritual():
             # continue even if we give it an integer
             # is this really useful? I guess it could be fine but wouldn't 
             # it be exhausting to have that everytime we give it something?
-            print("ERROR: Didn't gave RitualObject Object")
+            print("ERROR: Didn't recieve RitualObject Object")
             return
         self.ritualObjects.append(ritualObject)
 
