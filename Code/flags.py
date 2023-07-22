@@ -11,6 +11,17 @@ class TypesOfTime(Flag):
     YEARS = auto()
     LIFETIMES = auto()
 
+class CircumstanceComplexityModifiers(Flag):
+    NONE = auto()
+    LOCATION_LEYLINE_ALIGNS = auto()
+    LOCATION_LEYLINE_OPPOSES = auto()
+    WEATHER_ALIGNMENT = auto()
+    TIME_ALIGNMENT = auto()
+    RITUAL_OPPOSES_NATURE = auto()
+    THREE_FOLD_COMPONENT_SYMMETRY = auto()
+    FIVE_FOLD_COMPONENT_SYMETRY = auto()
+    LIFE_ON_THE_LINE = auto()
+
 class ComponentClass(Flag):
     NONE = auto()
     QUINTESSENCE = auto()

@@ -1,4 +1,5 @@
-from tkinter import *
+import tkinter
+import warnings
 import customtkinter
 from PIL import ImageTk,Image
 from ritual import Ritual
@@ -28,7 +29,7 @@ window.mainloop()
 ritualTest = Ritual()
 ritualTest.printTest()
 ritualObjectTest = RitualObject()
-ritualTest.addRitualObject(1)
+ritualTest.addRitualObject(ritualObjectTest)
 if (ritualTest.ritualObjects):
     # Same concept as the first if statement in Ritual.addRitualObject()
     # but it checks if the list even has something in the first place

@@ -8,12 +8,12 @@ class Component():
 
 class ComponentMaterial(Component):
     def __init__(self):
-        Component.__init__()
+        Component.__init__(self)
         self.presence = 0
 
 class ComponentMystical(Component):
     def __init__(self, physical, zeon):
-        Component.__init__()
+        Component.__init__(self)
         self.presence = 0
         if (physical):
             # ?????????????
@@ -23,32 +23,32 @@ class ComponentMystical(Component):
 
 class ComponentSpell(Component):
     def __init__(self, zeon):
-        Component.__init__()
+        Component.__init__(self)
         self.form = "None"
         self.complexity = zeon
 
 class ComponentSecondarySkill(Component):
     def __init__(self):
-        Component.__init__()
+        Component.__init__(self)
         self.form = "None"
         self.isPhysical = False
         self.secondaryAbilityResult = 0
 
 class ComponentElemental(Component):
     def __init__(self):
-        Component.__init__()
+        Component.__init__(self)
         self.intensityType = Intensity.NONE
         self.intensityValue = 0
 
 
 class ComponentRitualSpell(Component):
     def __init__(self):
-        Component.__init__()
+        Component.__init__(self)
         self.complexityByClass = 0
 
 class ComponentRitualSpellChannel(ComponentRitualSpell):
     def __init__(self):
-        ComponentRitualSpell.__init__()
+        ComponentRitualSpell.__init__(self)
         match self.componentClass:
             case ComponentClass.QUINTESSENCE:
                 self.complexityByClass = 20
@@ -67,7 +67,7 @@ class ComponentRitualSpellChannel(ComponentRitualSpell):
 
 class ComponentRitualSpellTrigger(ComponentRitualSpell):
     def __init__(self):
-        ComponentRitualSpell.__init__()
+        ComponentRitualSpell.__init__(self)
         match self.componentClass:
             case ComponentClass.QUINTESSENCE:
                 self.complexityByClass = 20
@@ -86,7 +86,7 @@ class ComponentRitualSpellTrigger(ComponentRitualSpell):
 
 class ComponentRitualSpellBalance(ComponentRitualSpell):
     def __init__(self):
-        ComponentRitualSpell.__init__()
+        ComponentRitualSpell.__init__(self)
         match self.componentClass:
             case ComponentClass.QUINTESSENCE:
                 self.complexityByClass = 30
@@ -105,7 +105,7 @@ class ComponentRitualSpellBalance(ComponentRitualSpell):
 
 class ComponentRitualSpellAlteration(ComponentRitualSpell):
     def __init__(self):
-        ComponentRitualSpell.__init__()
+        ComponentRitualSpell.__init__(self)
         match self.componentClass:
             case ComponentClass.QUINTESSENCE:
                 self.complexityByClass = 50
