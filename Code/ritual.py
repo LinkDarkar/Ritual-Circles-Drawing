@@ -96,11 +96,9 @@ class Ritual():
         match self.typeOfTimeDevoted:
             case TypesOfTime.SECONDS:
                 self.timeSpentCheckModifier = -30
-                print("enters in seconds")
             
             case TypesOfTime.MINUTES:
                 self.timeSpentCheckModifier = -24 + (1*(amount/5))
-                print("enters in minutes")
 
             case TypesOfTime.HOURS:
                 self.timeSpentCheckModifier = 0 + (1*(amount/5))
