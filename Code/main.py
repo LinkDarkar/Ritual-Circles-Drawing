@@ -24,3 +24,5 @@ if (ritualTest.ritualObjects):
 # A
 if (__name__ == '__main__'):
     print("shit has been done")
+
+# TEST
